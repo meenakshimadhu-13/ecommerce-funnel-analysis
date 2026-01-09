@@ -1,87 +1,57 @@
-E-Commerce Funnel & Category Leakage Analysis (Power BI)
-Project Overview
+# E-Commerce Funnel & Category Leakage Analysis (Power BI)
 
-This project analyzes user behavior across the e-commerce purchase journey to identify conversion bottlenecks from Browse → Add to Cart → Purchase. Category-level leakage was quantified to determine which product segments contribute most to checkout abandonment and to prioritize improvement actions.
+## Project Overview
+This project analyzes the e-commerce purchase journey to identify conversion bottlenecks across the Browse → Add to Cart → Purchase funnel. Category-level leakage was quantified to determine which product segments contribute most to checkout abandonment and to prioritize improvement actions.
 
-Business Objective
+## Business Objective
+Improve purchase completion rates by diagnosing where and why users drop off and by recommending targeted interventions for high-intent categories. The goal is to increase revenue efficiency without increasing acquisition or marketing spend.
 
-Improve purchase completion rates by diagnosing where and why users drop off in the funnel and by recommending targeted interventions for high-intent categories. The goal is to enhance revenue efficiency without increasing acquisition or marketing spend.
+## Scope of Analysis
+- Funnel stages: Browse, Add to Cart, Purchase
+- Metrics: Conversion rate, Leakage volume, Abandonment
+- Segmentation: Category, Country
+- Output: Insights, prioritization, recommendations
 
-Scope of Analysis
-Component	Description
-Funnel Stages	Browse, Add to Cart, Purchase
-Metrics	Conversion Rate, Leakage Volume, Abandonment
-Segmentation	Category, Country
-Output	Insights, Prioritization, Actionable Recommendations
-Key Insights
+## Key Insights
+- Largest drop-off occurs between Add to Cart and Purchase stages.
+- Apparel, New, and Clearance categories show high-intent behavior but low purchase completion.
+- Campus Collection and Drinkware categories convert well and act as performance benchmarks.
+- Improving conversion in high-intent categories yields stronger ROI than increasing top-of-funnel traffic.
 
-Major leakage occurs between Add to Cart and Purchase stages.
+## Methodology
+1. Funnel performance measurement
+2. Category leakage quantification
+3. Benchmark identification
+4. Root-cause hypothesis evaluation
+5. Prioritization and recommendations
 
-Apparel, New, and Clearance categories exhibit high-intent behavior but low conversion, indicating checkout-stage friction.
+## Tools and Techniques
+- Power BI (Dashboarding, Data Modeling, Interactive Filtering)
+- DAX (Custom Measures)
+- Funnel and Segmentation Analysis
+- Business and Product Analytics
 
-Campus Collection and Drinkware categories demonstrate stronger conversion and serve as performance benchmarks.
+## Deliverables
+- Multi-page Power BI dashboard:
+  - Funnel performance view
+  - Category leakage view
+  - Insights and recommendations view
+- Case study summary
+- Dataset documentation
 
-Improving conversion in high-intent categories yields higher ROI than increasing top-of-funnel traffic.
+## Future Enhancements
+- Device and channel segmentation
+- Pricing and promotion metadata
+- Checkout & payment error telemetry
+- Experimentation (A/B testing)
+- LTV and retention modeling
 
-Methodology
+## Data Limitations
+Analysis is based on event-level behavior and does not include pricing, inventory, promotion, session duration, or checkout error telemetry. Additional data would enable stronger causal inference and optimization modeling.
 
-Funnel performance measurement
-
-Category-level leakage quantification
-
-Benchmark identification
-
-Root-cause hypothesis and evaluation
-
-Prioritization and business recommendations
-
-Tools and Techniques
-
-Power BI (Dashboarding, Data Modeling, Interactive Filtering)
-
-DAX (Custom Measures for Funnel and Category Metrics)
-
-Funnel Analysis and Segmentation
-
-Business Insights and Product Analytics
-
-Deliverables
-
-Multi-page Power BI dashboard:
-
-Funnel Performance View
-
-Category Leakage View
-
-Insights and Recommendation View
-
-Case study summary notes
-
-Dataset and model documentation
-
-Repository Structure
-/data
-/screenshots
-/dashboard.pbix
-/README.md
-
-Future Enhancements
-
-Device and channel-level cohort segmentation
-
-Pricing and promotion metadata
-
-Checkout error and payment telemetry
-
-Experimentation (A/B) recommendations
-
-Retention/LTV layer for business impact modeling
-
-Data Limitations
-
-Analysis is based on event-level behavior and does not include pricing, inventory, session duration, couponing, or churn metrics. Additional telemetry would enable stronger causal attribution and optimization modeling.
-
-Author
-
+## Author
 Meenakshi Madhu
-Analyst — Business, Product, Data, Risk
+contact: meenakshimadhu17@gmail.com
+
+## Keywords
+Power BI, DAX, Funnel Analysis, Conversion, Abandonment, Category Analytics, Product Analytics, Business Insights, Checkout Optimization, E-commerce Analytics, Segmentation, Dashboarding, Case Study, Data Analysis
