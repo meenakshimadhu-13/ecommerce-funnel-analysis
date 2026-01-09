@@ -51,7 +51,4 @@ Analysis is based on event-level behavior and does not include pricing, inventor
 
 ## Author
 Meenakshi Madhu
-contact: meenakshimadhu17@gmail.com
-
-## Keywords
-Power BI, DAX, Funnel Analysis, Conversion, Abandonment, Category Analytics, Product Analytics, Business Insights, Checkout Optimization, E-commerce Analytics, Segmentation, Dashboarding, Case Study, Data Analysis
+Contact: meenakshimadhu17@gmail.com
